@@ -1,0 +1,12 @@
+{
+  "plugins": ["prettier", "react"],
+  "extends": ["prettier", "eslint:recommended", "plguin:react/recommended"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detetect"
+    }
+  }
+}
